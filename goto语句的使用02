@@ -1,0 +1,13 @@
+#define _CRT_SECURE_NO_WARNINGS 1
+#include<stdio.h>
+#include<stdlib.h>
+#include<string.h>
+int main()
+{
+	printf("你好\n");
+	goto again;
+	printf("hello world\n");
+again:
+	printf("hello you\n");
+	return 0;
+}
